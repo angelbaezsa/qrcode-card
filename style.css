@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #b4ceed;
+  font-family: "Outfit", sans-serif;
+}
+
+/* QR-code card */
+
+.card {
+  border-radius: 25px;
+  position: absolute;
+  background-color: aliceblue;
+  width: 350px;
+  height: 550px;
+  top: 170px;
+  left: 43%;
+}
+.card-head {
+  padding: 15px;
+}
+.qr-img {
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+}
+.card-body {
+  padding: 0 25px;
+}
+
+.card-title {
+  color: hsl(218, 44%, 22%);
+  width: 280px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.card-text {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  width: 280px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+/* Attribution */
+.attribution-section{
+    position: relative;
+    top: 880px;
+}
+
+.attribution {
+  height: 50px;
+  background-color: pink;
+  font-size: 11px;
+  text-align: center;
+  
+}
